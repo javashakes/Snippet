@@ -66,7 +66,7 @@ The block of text that you want to snippet.
 - Added License
 - Added Disclaimer
 
-### 2.3.0 *(~2015-04-15)*
+### 2.3.0 *(2015-04-15)*
 
 - Last known update from David Dexter
 
