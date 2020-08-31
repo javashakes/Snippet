@@ -23,7 +23,7 @@ ExpressionEngine v2+
 
 ### `{exp:snippet}`
 
-Logs in a specified user.
+Creates a simple snippet from a block of text.
 
 ##### `total` *(optional)*
 
@@ -32,24 +32,24 @@ Character limit
 - **Type:** int
 - **Default:** `500`
 
-##### `worod` *(optional)*
+##### `word` *(optional)*
 
 Tells the plugin if you want it to end the snippet on the last full word.
 
-- **Type:** int
+- **Type:** boolean
 - **Default:** `TRUE`
 
 ##### `ellipsis` *(optional)*
 
 Any text that you want appended to the end of the snippet.
 
-- **Type:** int
+- **Type:** string
 - **Default:** `...`
 
 #### Examples
 
 ```
-{exp:snippet total="100" word="true" ellipsis="..."}
+{exp:snippet total="100" word="FALSE" ellipsis="..."}
 
 The block of text that you want to snippet.
 
@@ -66,9 +66,9 @@ The block of text that you want to snippet.
 - Added License
 - Added Disclaimer
 
-### 2.3.1 *(~2015-04-15)*
+### 2.3.0 *(~2015-04-15)*
 
-- Last known update
+- Last known update from David Dexter
 
 ## License
 
